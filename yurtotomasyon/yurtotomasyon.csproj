@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B0F30F9-6DC1-4895-84AA-F67D8B3344C0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>yurtotomasyon</RootNamespace>
+    <AssemblyName>yurtotomasyon</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="güvenlikformu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="güvenlikformu.Designer.cs">
+      <DependentUpon>güvenlikformu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="idareformu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="idareformu.Designer.cs">
+      <DependentUpon>idareformu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda1.Designer.cs">
+      <DependentUpon>oda1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda10.Designer.cs">
+      <DependentUpon>oda10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda11.Designer.cs">
+      <DependentUpon>oda11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda12.Designer.cs">
+      <DependentUpon>oda12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda13.Designer.cs">
+      <DependentUpon>oda13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda14.Designer.cs">
+      <DependentUpon>oda14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda15.Designer.cs">
+      <DependentUpon>oda15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda16.Designer.cs">
+      <DependentUpon>oda16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda17.Designer.cs">
+      <DependentUpon>oda17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda18.Designer.cs">
+      <DependentUpon>oda18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda19.Designer.cs">
+      <DependentUpon>oda19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda2.Designer.cs">
+      <DependentUpon>oda2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda20.Designer.cs">
+      <DependentUpon>oda20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda21.Designer.cs">
+      <DependentUpon>oda21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda3.Designer.cs">
+      <DependentUpon>oda3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda4.Designer.cs">
+      <DependentUpon>oda4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda5.Designer.cs">
+      <DependentUpon>oda5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda6.Designer.cs">
+      <DependentUpon>oda6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda7.Designer.cs">
+      <DependentUpon>oda7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda8.Designer.cs">
+      <DependentUpon>oda8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oda9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oda9.Designer.cs">
+      <DependentUpon>oda9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="odalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="odalar.Designer.cs">
+      <DependentUpon>odalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bölümler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bölümler.Designer.cs">
+      <DependentUpon>bölümler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giriş.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giriş.Designer.cs">
+      <DependentUpon>Giriş.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IslemFormu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IslemFormu.Designer.cs">
+      <DependentUpon>IslemFormu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ogrekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ogrekle.Designer.cs">
+      <DependentUpon>ogrekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="personel .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="personel .Designer.cs">
+      <DependentUpon>personel .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personel.cs" />
+    <Compile Include="PersonelVeritabani.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="temizlik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="temizlik.Designer.cs">
+      <DependentUpon>temizlik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yemekhane.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yemekhane.Designer.cs">
+      <DependentUpon>yemekhane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YURTDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YURTDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="yurtotomasyonDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>yurtotomasyonDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="çamaşırhane.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="çamaşırhane.Designer.cs">
+      <DependentUpon>çamaşırhane.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bölümler.resx">
+      <DependentUpon>bölümler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="güvenlikformu.resx">
+      <DependentUpon>güvenlikformu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="idareformu.resx">
+      <DependentUpon>idareformu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda1.resx">
+      <DependentUpon>oda1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda10.resx">
+      <DependentUpon>oda10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda11.resx">
+      <DependentUpon>oda11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda12.resx">
+      <DependentUpon>oda12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda13.resx">
+      <DependentUpon>oda13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda14.resx">
+      <DependentUpon>oda14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda15.resx">
+      <DependentUpon>oda15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda16.resx">
+      <DependentUpon>oda16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda17.resx">
+      <DependentUpon>oda17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda18.resx">
+      <DependentUpon>oda18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda19.resx">
+      <DependentUpon>oda19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda2.resx">
+      <DependentUpon>oda2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda20.resx">
+      <DependentUpon>oda20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda21.resx">
+      <DependentUpon>oda21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda3.resx">
+      <DependentUpon>oda3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda4.resx">
+      <DependentUpon>oda4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda5.resx">
+      <DependentUpon>oda5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda6.resx">
+      <DependentUpon>oda6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda7.resx">
+      <DependentUpon>oda7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda8.resx">
+      <DependentUpon>oda8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oda9.resx">
+      <DependentUpon>oda9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="odalar.resx">
+      <DependentUpon>odalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giriş.resx">
+      <DependentUpon>Giriş.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IslemFormu.resx">
+      <DependentUpon>IslemFormu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ogrekle.resx">
+      <DependentUpon>ogrekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personel .resx">
+      <DependentUpon>personel .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="temizlik.resx">
+      <DependentUpon>temizlik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yemekhane.resx">
+      <DependentUpon>yemekhane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="çamaşırhane.resx">
+      <DependentUpon>çamaşırhane.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="YURTDataSet.xsc">
+      <DependentUpon>YURTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="YURTDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YURTDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YURTDataSet.xss">
+      <DependentUpon>YURTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="yurtotomasyonDataSet.xsc">
+      <DependentUpon>yurtotomasyonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="yurtotomasyonDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>yurtotomasyonDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="yurtotomasyonDataSet.xss">
+      <DependentUpon>yurtotomasyonDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
